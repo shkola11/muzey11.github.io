@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Amaltea;
+    src: url("11664.ttf");
+}
+@font-face {
+    font-family: Helv;
+    src: url("12341.otf");
+}
+body{
+	font-family:Helv;
+	margin-left:0;
+	margin-right:0;
+	margin-top:-3%;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+header{
+	margin-top:0;
+	text-align:center;
+	font-size:30;
+	font-family:"Amaltea";
+	background-image:url("stone1.jpg");
+	height:120px;
+	color:white;
+	line-height:120px;
+}
+nav {
+	position:fixed;
+	margin-left:2%;
+	font-family:"Amaltea";
+	margin-top:5%;
+	background-color:rgba(0,0,0,0.3);
+	font-size:25px;
+}
+/*.navigation{*/
+	.navigation:link { text-decoration: none; color: mediumturquoise;} 
+	.navigation:visited { text-decoration: none; color: mediumturquoise;} 
+	.navigation:active { text-decoration: none; color: mediumturquoise;}
+
+#table{
+	border-spacing:15px;
+	font-size:25px;
+}
+section{
+	position:relative;
+	margin-left:15%;
+	margin-right:10%;
+	background-color:rgba(255,255,255,0.5);
+}
+#stone{
+	position:relative;
+	margin-left:35%;
+	font-size:40;
+	font-family:"Amaltea";
+}
